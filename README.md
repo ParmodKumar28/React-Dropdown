@@ -39,7 +39,7 @@ To use this dropdown component in your React project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/dropdown-react-component.git
+   git clone https://github.com/ParmodKumar28/React-Dropdown
 
 2. **Change to the project directory:**
    cd React Dropdown
