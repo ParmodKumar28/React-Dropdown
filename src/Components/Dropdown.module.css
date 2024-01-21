@@ -51,7 +51,6 @@
     height: 1.2rem;
 }
 
-
 /* Styles for the list items container div here */
 .listItems {
     margin-top: 8px;
@@ -63,7 +62,6 @@
     display: flex;
     flex-direction: column;
 }
-
 
 /* Styles for the list item here */
 .item {
@@ -85,14 +83,12 @@
     margin-top: 2rem;
 }
 
-
 /* Selected item answer paragarph styles here */
 .answer{
     font-size: larger;
 }
 
 /* Responsiveness */
-
 @media (max-width: 600px) {
     .dropdownContainer{
         width: 100%;

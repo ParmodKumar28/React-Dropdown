@@ -9,10 +9,12 @@ export default function Dropdown() {
     const [listItems, setListItems] = useState(items);
     let [dropdownVisible, setDropdownVisible] = useState(false);
     let [itemSelected, setItemSelected] = useState("");
+    let [select, setSelect] = useState("Select");
 
     // Handler Functions
     const itemSelectedHandler = (item) => {
         setItemSelected(item);
+        setSelect(item);
         setDropdownVisible(false);
     };
 
@@ -41,7 +43,7 @@ export default function Dropdown() {
                     onMouseOver={dropdownOnHover}
                     onClick={onClickDropdownToggle}
                 >
-                    <p className={styles.toggleText}>Select</p>
+                    <p className={styles.toggleText}>{select}</p>
                     <img
                         className={styles.icon}
                         src={
