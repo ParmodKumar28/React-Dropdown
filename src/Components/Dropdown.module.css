@@ -8,13 +8,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
+/* Heading of the dropdown here */
 .heading {
     text-align: center;
 }
 
+/* This is the wrapper where the select toggler div and dropdown div is placed */
 .dropdownWrapper {
     position: relative; 
     display: flex;
@@ -23,6 +27,7 @@
     user-select: none;
 }
 
+/* The select dropdown toggler */
 .dropdownToggle {
     width: 480px;
     padding: 0 1rem;
@@ -34,16 +39,20 @@
     box-shadow: 0px 0px 8px grey;
 }
 
+/* Styles for select button here */
 .toggleText {
     font-weight: 700;
     color: rgb(35, 34, 34);
     font-size: 1.2rem;
 }
 
+/* Styles for the icon in slect button here */
 .icon {
     height: 1.2rem;
 }
 
+
+/* Styles for the list items container div here */
 .listItems {
     margin-top: 8px;
     width: 480px;
@@ -53,28 +62,54 @@
     box-shadow: 0px 0px 8px grey;
     display: flex;
     flex-direction: column;
-    position: absolute; 
-    top: 100%; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    z-index: 2; 
 }
 
+
+/* Styles for the list item here */
 .item {
     font-weight: 500;
     color: rgb(35, 34, 34);
     padding: 1rem;
 }
 
+
+/* On hover of any list item */
 .item:hover {
     background-color: lightgreen;
     outline: auto green;
 }
 
+
+/* Selected item name should shown in this div */
 .selectedItemContainer{
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 
+
+/* Selected item answer paragarph styles here */
 .answer{
     font-size: larger;
+}
+
+/* Responsiveness */
+
+@media (max-width: 600px) {
+    .dropdownContainer{
+        width: 100%;
+        height: 100%;
+    }
+
+    .heading{
+        width: auto;
+    }
+    .dropdownToggle{
+        width: 100%;
+    }
+    .dropdownWrapper{
+        width: 80%;
+    }
+
+    .listItems{
+        width: 100%;
+    }
 }
