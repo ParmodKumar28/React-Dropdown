@@ -3,7 +3,8 @@
 🚀 A customizable and responsive dropdown React component with hover and click functionality.
 
 # 👌Image
-https://github.com/ParmodKumar28/React-Dropdown/assets/91540271/c0dd6450-a596-47b2-b002-044ea81c5f25
+![Dropdown]![Screenshot 2024-01-21 190216](https://github.com/ParmodKumar28/React-Dropdown/assets/91540271/c0dd6450-a596-47b2-b002-044ea81c5f25)
+
 
 ## Table of Contents
 
