@@ -29,7 +29,7 @@
 
 ## Demo
 
-🔗 https://react-dropdown-ss4i.onrender.com
+🔗 https://dropdown-feature-react.netlify.app
 
 
 ## Installation
