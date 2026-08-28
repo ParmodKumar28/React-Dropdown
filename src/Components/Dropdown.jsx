@@ -6,7 +6,7 @@ import items from "./data";
 // Dropdown component
 export default function Dropdown() {
     // States
-    const [listItems, setListItems] = useState(items);
+    const [listItems] = useState(items);
     let [dropdownVisible, setDropdownVisible] = useState(false);
     let [itemSelected, setItemSelected] = useState("");
     let [select, setSelect] = useState("Select");
