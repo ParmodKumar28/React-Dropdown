@@ -29,7 +29,7 @@
 
 ## Demo
 
-🔗 https://dropdown-feature-react.netlify.app
+🔗 https://dropdown-feature.netlify.app
 
 
 ## Installation
